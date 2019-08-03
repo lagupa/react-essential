@@ -1,0 +1,6 @@
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-content: space-around;
+  text-align: justify;
+}
