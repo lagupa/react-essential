@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
-import MyFunc from './components/react_basics/reactBasics'
+import Footer from './components/Footer'
+import Header from './components/Header'
+import MainContent from './components/MainContent'
 
 
 class App extends Component {
   render() {
     return (
-      <div> <MyFunc /> </div>
+      <div>
+        <Header />
+        <MainContent />
+        <Footer />
+      </div>
     )
   }
 
